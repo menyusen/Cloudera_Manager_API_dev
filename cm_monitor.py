@@ -1,6 +1,6 @@
 # Get a handle to the API client
-from cm_api.api_client import ApiResource
 import time
+from cm_api.api_client import ApiResource
 from datetime import datetime, timedelta
 
 cm_host = "x.x.x.x"
@@ -83,3 +83,4 @@ for ts2 in ts_list2.timeSeries:
     print >> f_cpu,"%s\t%s" % (dt2, point2.value)
 f_cpu.close()
 print "YARN CPU monitoring data in the last 12 hours written"
+
