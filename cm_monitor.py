@@ -71,7 +71,6 @@ for ts1 in ts_list1.timeSeries:
 f_memory.close()
 print "YARN memory monitoring data in the last 12 hours written"
 
-
 #YARN cpu_used monitoring data
 f_cpu = open("./data/yarn_cpu_used.out", 'a+w')
 query_cpu = "SELECT allocated_vcores_cumulative where category=YARN_POOL and serviceName=yarn and queueName=root"
