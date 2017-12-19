@@ -2,7 +2,7 @@
 
 Cloudera Manager API：http://cloudera.github.io/cm_api/docs/python-client/
 
-### 1、cm_monitor：基于Cloudera Manager API对CDH集群的资源使用情况进行统计记录并作可视化分析。
+### 1、cm_monitor：基于Cloudera Manager API对CDH集群的资源使用情况进行统计记录并作可视化
 
   集群环境：CDH 5.7.3  API：cm-api
   > #install the Python API client
