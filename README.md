@@ -6,6 +6,7 @@ Cloudera Manager API：http://cloudera.github.io/cm_api/docs/python-client/
 
   集群环境：CDH 5.7.3  API：cm-api
   > #install the Python API client
+  > 
   > $ git clone git://github.com/cloudera/cm_api.git
   > 
   > $ cd cm_api/python
