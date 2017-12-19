@@ -13,7 +13,7 @@ Cloudera Manager API：http://cloudera.github.io/cm_api/docs/python-client/
   > 
   > $ sudo python setup.py install
     
-* 利用api的时间序列查询query_timeseries()函数记录整个集群的CPU、内存、存储及YARN资源池的CPU、内存在过去12个小时的使用情况;
+* 利用api的时间序列查询query_timeseries()函数记录整个集群的CPU、内存、存储及YARN资源池的CPU、内存在过去12个小时的使用情况；
 * 通过定时任务执行，实现集群资源使用情况的全记录，数据粒度为10分钟取一个点；
 * 利用matplotlib对统计的结果进行可视化展示。
     
